@@ -5,55 +5,42 @@
 /*css de index*/
 
 .body{
-	background: linear-gradient(to top, darkviolet, violet, white);
+	background-color: white;
 }
+
+
 nav{
-	background: linear-gradient(to top, black, violet);
+	background: violet;
 }
-nav ul{
-	display:flex;
-	flex-direction: column;
-	margin-top: 1%;
-	margin-bottom: 1%;
-	
-	
-}
-nav ul li{
-	list-style: none;
-	
-}
-nav ul li a{
+
+#nav-principal li a{
 	font-size: 1.8rem;
 	font-family: lora-serif;
-	text-decoration: none;
 	color: white;
-	text-align: center;
 
 }
 
-nav ul li a:hover{
-	color:violet;
-	cursor: pointer;
-
-}
 .encabezado__img--fluid{
 	width: 90%;
-	padding-left: 5%;
-	padding-right: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	
 }
 
 .tituloh1{
-	background: radial-gradient(violet, black);
+	background:white;
+	font-family: 'Playfair Display', serif;
+   font-size: 2.8rem;
 }
 
 h1,h3,h4{
 	font-family: 'Playfair Display', serif;
-	font-size: 2.5rem;
+	font-size: 2.8rem;
 	text-align: center;
 }
 
 .titulo2{
-	background: radial-gradient(violet, black);
+	background-color: white;
 }
 .tituloh4{
 	color: black;
@@ -64,7 +51,6 @@ h1,h3,h4{
 	text-align: center;
 	color: white;
 	background-color: black;
-
 }
 figure{
 	font-family:  'Montserrat', sans-serif;
@@ -74,11 +60,6 @@ figure{
 figure a{
 	background-color: violet;
 	color: black;
-	cursor: pointer;
-}
-
-figure a:hover{
-	color: white;
 }
 
 .piedepagina{
@@ -112,6 +93,13 @@ figure img{
 	object-fit: cover;
 }
 
+.img-carrousel{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+
 
 /*termina css de index*/
 
@@ -141,16 +129,16 @@ h1,h2,h3,h4,h5{
 
 #subNav{
 	background-color: white;
-	color: white;
+	color: violet;
 	display: flex;
 	flex-direction: column;
 
 }
 .subNav{
-	color:white;
+	color: violet;
 	font-family: 'Playfair Display', serif;
-	font-size: 2.2rem;
-	text-align:left;
+	font-size: 2rem;
+	text-align: left;
 	
 }
 
@@ -162,6 +150,7 @@ h1,h2,h3,h4,h5{
 div nav ul li{
 	font-size: 1.6rem;
 	text-align:left;
+	list-style: none;
 
 }
 
@@ -189,7 +178,7 @@ div nav ul li{
 	font-family: 'Playfair Display', serif;
 	font-size: 2.4rem;
 	text-align: center;
-	background-color: violet;
+	background-color: white;
 }
 .segundoTitulo{
 font-family: 'Playfair Display', serif;
@@ -284,11 +273,7 @@ font-family: 'Playfair Display', serif;
 
 @media only screen and (min-width: 1024px){
 
-   .ingresos{
-   	display: flex;
-   	flex-direction: row;
-   	justify-content: space-evenly;
-   }
+ 
 
    .productos{
    	display: flex;
@@ -363,21 +348,18 @@ font-family: 'Playfair Display', serif;
    .navDos{
    	display: flex;
    	flex-direction: column;
-   	text-align: center;
+   	text-align: left;
    }
 
    .subNav{
-   	text-align: center;
+   	text-align: left;
    }
 
    .todos-los-productos{
    	display: flex;
    	flex-direction: row;
    	justify-content: space-evenly;
-
-   }
-
-
+   	
 
 
 }
