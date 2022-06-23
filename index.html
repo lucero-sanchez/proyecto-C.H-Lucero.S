@@ -22,7 +22,7 @@
      
      <!-- inicia nav bs-->
 
-    <nav class="navbar navbar-expand-lg navbar-light " >
+    <nav class="navbar navbar-expand-lg navbar-light nav-1" >
     <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -51,7 +51,7 @@
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="buscar..." placeholder="buscar..." aria-label="buscar...">
-        <button class="btn btn-outline-success" type="submit">buscar</a></button>
+        <button class="btn btn-outline-light" type="submit">buscar</a></button>
       </form>
     </div>
   </div>
@@ -108,75 +108,105 @@
 
     <!--termina carrousel de bs-->
 
-		        <br>
-		        <!--promo-->
+    <br>
+    <!--promo-->
 
-		        <h2 id="promo" class="promoenvios">envios gratis en compras superiores a $10000</h2>
-		        <br>
+    <h2 id="promo" class="promoenvios">envios gratis en compras superiores a $10000</h2>
+    <br>
 
-		<!--productos-->
+    <!--inicia productos bs-->
 
-		    <h3 class="titulo2">todos los productos</h3>
-		    <br>
-		<section id="productos">
 
-			<div class="productos">
-		        <figure>
-		            <img src="img/jean 1.jpeg" alt="este es un jean">
-		                <figcaption>jean art 10</figcaption>
-		                <p>$2500</p>
-		                <a href="html/carrito.html">agregar al carrito</a>
-		        </figure>
-		        <figure>
-		            <img src="img/pollera 1.jpeg" alt="esta es una pollera">
-		                <figcaption>pollera art 56</figcaption>
-		                <p>$3000</p>
-		                <a href="html/carrito.html">agregar al carrito</a>
-		        </figure>
-		        <figure>
-		            <img src="img/top 1.jpeg" alt="este es un top">
-		                <figcaption>top art 35</figcaption>
-		                <p>$1500</p>
-		                <a href="html/carrito.html">agregar al carrito</a>
-		        </figure>
-		        <figure>
-		                <img src="img/vestido 1.jpeg" alt="este es un vestido">
-		                <figcaption>vestido art 62</figcaption>
-		                <p>$4200</p>
-		                <a href="html/carrito.html">agregar al carrito</a>
-		        </figure>
-		    </div>
-		    <div class="productos">
-		        <figure>		         
-		        	   <img src="img/pantalon engomado.jpeg" alt="este es un pantalon">
-		               <figcaption>pantalon engomado art 26</figcaption>
-		               <p>$3800</p>
-		               <a href="html/carrito.html">agregar al carrito</a>
-		        </figure>
-		        <figure>
-		               <img src="img/jean 2.jpeg" alt="este es un jean">
-		               <figcaption>jean art 11</figcaption>
-		               <p>$2800</p>
-		               <a href="html/carrito.html">agregar al carrito</a>
-		        </figure>
-		        <figure>
-		               <img src="img/pollera 2.jpeg" alt="esta es una pollera">
-		               <figcaption>pollera art 55</figcaption>
-		               <p>$3250</p>
-		               <a href="html/carrito.html">agregar al carrito</a>
-		        </figure>
-		        <figure>
-		               <img src="img/top 2.jpeg" alt="este es un top">
-                       <figcaption>top art 36</figcaption>
-                       <p>$1750</p>
-                       <a href="html/carrito.html">agregar al carrito</a>
-                </figure>
-           </div>
-        </section>
-            <br>
-            <h4><a class="tituloh4" href="html/productos.html">ver mas</a></h4> 
+    <h3 class="titulo2">todos los productos</h3>
+    <br>
 
-        <!--termina productos-->      
+<div class="card-group">
+
+    <div class="card ">
+        <img src="img/jean 1.jpeg" class="card-img-top  img-card" alt="este es un jean">
+        <div class="card-body">
+            <h5 class="card-title  tex-art">jean art 10</h5>
+            <p class="card-text tex-p">$2500</p>
+            <a href="html/carrito.html" class="btn btn-text">agregar al carrito</a>
+        </div>
+    </div>
+
+    <div class="card ">
+        <img src="img/pollera 1.jpeg" class="card-img-top  img-card" alt="esta es una pollera">
+        <div class="card-body">
+            <h5 class="card-title  tex-art">pollera art 56</h5>
+            <p class="card-text tex-p">$3000</p>
+            <a href="html/carrito.html" class="btn btn-text">agregar al carrito</a>
+        </div>
+    </div>
+    <div class="card ">
+        <img src="img/top 1.jpeg" class="card-img-top  img-card" alt="este es un top">
+        <div class="card-body">
+            <h5 class="card-title  tex-art">top art 35</h5>
+            <p class="card-text tex-p">$1500</p>
+            <a href="html/carrito.html" class="btn btn-text">agregar al carrito</a>
+        </div>
+    </div>
+
+    <div class="card ">
+        <img src="img/vestido 1.jpeg" class="card-img-top  img-card" alt="este es un vestido">
+        <div class="card-body">
+            <h5 class="card-title  tex-art">vestido art 62</h5>
+            <p class="card-text tex-p">$4200</p>
+            <a href="html/carrito.html" class="btn btn-text">agregar al carrito</a>
+        </div>
+    </div>
+
+</div>
+
+<br>
+
+<div class="card-group">
+
+    <div class="card  ">
+        <img src="img/pantalon 6.jpeg" class="card-img-top  img-card" alt="este es un pantalon">
+        <div class="card-body">
+            <h5 class="card-title tex-art ">pantalon art 26</h5>
+            <p class="card-text tex-p">$3800</p>
+            <a href="html/carrito.html" class="btn btn-text">agregar al carrito</a>
+        </div>
+    </div>
+
+    <div class="card ">
+        <img src="img/jean 2.jpeg" class="card-img-top  img-card" alt="este es un jean">
+        <div class="card-body">
+            <h5 class="card-title  tex-art">jean art 11</h5>
+            <p class="card-text tex-p">$2800</p>
+            <a href="html/carrito.html" class="btn btn-text">agregar al carrito</a>
+        </div>
+    </div>
+    <div class="card ">
+        <img src="img/pollera 4.jpeg" class="card-img-top  img-card" alt="esta es una pollera">
+        <div class="card-body">
+            <h5 class="card-title  tex-art">pollera art 55</h5>
+            <p class="card-text tex-p">$3250</p>
+            <a href="html/carrito.html" class="btn btn-text btn-text">agregar al carrito</a>
+        </div>
+    </div>
+
+    <div class="card ">
+        <img src="img/top 2.jpeg" class="card-img-top  img-card" alt="este es un top">
+        <div class="card-body">
+            <h5 class="card-title  tex-art">top art 36</h5>
+            <p class="card-text tex-p">$1750</p>
+            <a href="html/carrito.html" class="btn btn-text">agregar al carrito</a>
+        </div>
+    </div>
+
+</div>
+
+
+
+    <br>
+    <h4><a class="tituloh4" href="productos.html">ver mas</a></h4> 
+
+    <!--termina productos bs-->
+	
     </main>   
     <!--termina mail-->
 

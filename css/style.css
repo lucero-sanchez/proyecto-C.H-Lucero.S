@@ -4,12 +4,10 @@
 }*
 /*css de index*/
 
-.body{
-	background-color: white;
-}
 
 
-nav{
+
+.nav-1{
 	background: violet;
 }
 
@@ -31,6 +29,7 @@ nav{
 	background:white;
 	font-family: 'Playfair Display', serif;
    font-size: 2.8rem;
+
 }
 
 h1,h3,h4{
@@ -45,6 +44,38 @@ h1,h3,h4{
 .tituloh4{
 	color: black;
 }
+
+
+.img-card{
+	width:100%;
+	height: 50%;
+	object-fit: cover;
+	
+}
+
+.tex-art{
+	font-size: 2.2rem;
+}
+
+.tex-p{
+	font-size: 1.6rem;
+	text-align: center;
+	color: darkviolet;
+}
+
+.btn-text{
+   background: violet;
+   color: white;
+   display: flex;
+   justify-content: center;
+
+}
+
+.btn-text:hover{
+	transform: translateY(5px);
+}
+
+
 .promoenvios{
 	font-family: 'Playfair Display', serif;
 	font-size: 3.0rem;
@@ -52,15 +83,11 @@ h1,h3,h4{
 	color: white;
 	background-color: black;
 }
-figure{
-	font-family:  'Montserrat', sans-serif;
-	font-size: 1rem;
-	text-align: center;
+
+.promoenvios:hover{
+	transform: translateY(8px);
 }
-figure a{
-	background-color: violet;
-	color: black;
-}
+
 
 .piedepagina{
 	font-family: 'Playfair Display', serif;
@@ -69,11 +96,7 @@ figure a{
     text-align: center;
 }
 
-figure p{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.2rem;
-	text-align: center;
-}
+
 #logo{
 	width:20%;
 	margin-left: 40% ;
@@ -84,21 +107,15 @@ figure p{
 	width: 40px;
 }
 
-article p{
-	text-align: left;
-}
-figure img{
-	width:90%;
-	height: 80%;
-	object-fit: cover;
-}
+
 
 .img-carrousel{
-	width: 80%;
-	margin-left: 10%;
-	margin-right: 10%;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
 	
 }
+
 
 
 /*termina css de index*/
@@ -112,7 +129,12 @@ h1,h2,h3,h4,h5{
 	color: black;
 }
 .titulo{
-	color: violet;
+	color: white;
+	background: linear-gradient(to top, black, violet);
+}
+
+.titulo:hover{
+	transform: translateY(5px);
 }
 #textoImportante{
 	text-align: center;
@@ -127,33 +149,45 @@ h1,h2,h3,h4,h5{
 
 /*css de productos*/
 
-#subNav{
-	background-color: white;
-	color: violet;
-	display: flex;
-	flex-direction: column;
 
-}
 .subNav{
 	color: violet;
+	background-color: white;
 	font-family: 'Playfair Display', serif;
 	font-size: 2rem;
-	text-align: left;
+	text-align: center;
 	
 }
 
-.navDos{
-	display: flex;
-	flex-direction: column;
-
-}
-div nav ul li{
-	font-size: 1.6rem;
-	text-align:left;
-	list-style: none;
-
+.nav-2{
+	background-color: white;
 }
 
+
+figure img{
+	width: 90%;
+	height: 50%;
+	object-fit: cover;
+
+}
+
+figure figcaption{
+   text-align: center;
+   font-family: 'Playfair Display', serif;
+	font-size: 1.8rem;
+}
+
+figure p{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5rem;
+}
+
+figure a{
+	
+	background: violet;
+	color: black;
+}
 /*termina css de productos*/
 
 /*css de contacto*/
@@ -255,31 +289,15 @@ font-family: 'Playfair Display', serif;
 
 @media only screen and (min-width: 768px){
    
-   nav ul{
-	display:flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	margin-top: 1%;
-	margin-bottom: 1%;
-
-	}
+  
 
 	.pie{
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
 	}
-}
 
-@media only screen and (min-width: 1024px){
 
- 
-
-   .productos{
-   	display: flex;
-   	flex-direction: row;
-   	justify-content: space-evenly;
-   }
 }
 
 /*termina grid index*/
@@ -321,11 +339,6 @@ font-family: 'Playfair Display', serif;
 		justify-content: space-evenly;
 	}
    
-   .navDos{
-   	display: flex;
-   	flex-direction: row;
-   	justify-content: space-evenly;
-   }
 
    .subNav{
    	text-align: center;
@@ -345,11 +358,6 @@ font-family: 'Playfair Display', serif;
    "pie pie";
    }
 
-   .navDos{
-   	display: flex;
-   	flex-direction: column;
-   	text-align: left;
-   }
 
    .subNav{
    	text-align: left;
@@ -358,8 +366,7 @@ font-family: 'Playfair Display', serif;
    .todos-los-productos{
    	display: flex;
    	flex-direction: row;
-   	justify-content: space-evenly;
+   	justify-content: center;
    	
-
-
+   }
 }
