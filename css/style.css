@@ -1,372 +1,249 @@
-*{
-	margin:0;
-	padding:0; 
-}*
-/*css de index*/
+* {
+  margin: 0;
+  padding: 0; }
 
+*
+.nav-1 {
+  background: violet; }
 
+#nav-principal li a {
+  font-size: 1.8rem;
+  font-family: lora-serif;
+  color: white; }
 
+.encabezado__img--fluid {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
 
-.nav-1{
-	background: violet;
-}
+.tituloh1 {
+  background: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem; }
 
-#nav-principal li a{
-	font-size: 1.8rem;
-	font-family: lora-serif;
-	color: white;
+h1, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  text-align: black; }
 
-}
+.titulo2 {
+  background-color: white; }
 
-.encabezado__img--fluid{
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
-	
-}
+.tituloh4 {
+  color: black; }
 
-.tituloh1{
-	background:white;
-	font-family: 'Playfair Display', serif;
-   font-size: 2.8rem;
+.img-card {
+  width: 100%;
+  height: 50%;
+  object-fit: cover; }
 
-}
+.tex-art {
+  font-size: 2.2rem; }
 
-h1,h3,h4{
-	font-family: 'Playfair Display', serif;
-	font-size: 2.8rem;
-	text-align: center;
-}
+.tex-p {
+  font-size: 1.6rem;
+  text-align: center;
+  color: darkviolet; }
 
-.titulo2{
-	background-color: white;
-}
-.tituloh4{
-	color: black;
-}
+.btn-text {
+  background: violet;
+  color: white;
+  display: flex;
+  justify-content: center; }
 
+.btn-text:hover {
+  transform: translateY(5px); }
 
-.img-card{
-	width:100%;
-	height: 50%;
-	object-fit: cover;
-	
-}
+.promoenvios {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.0rem;
+  text-align: center;
+  color: white;
+  background-color: black; }
 
-.tex-art{
-	font-size: 2.2rem;
-}
+.promoenvios:hover {
+  transform: translateY(8px); }
 
-.tex-p{
-	font-size: 1.6rem;
-	text-align: center;
-	color: darkviolet;
-}
+.piedepagina {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  text-align: center; }
 
-.btn-text{
-   background: violet;
-   color: white;
-   display: flex;
-   justify-content: center;
+#logo {
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%; }
 
-}
+.logoface {
+  width: 40px; }
 
-.btn-text:hover{
-	transform: translateY(5px);
-}
-
-
-.promoenvios{
-	font-family: 'Playfair Display', serif;
-	font-size: 3.0rem;
-	text-align: center;
-	color: white;
-	background-color: black;
-}
-
-.promoenvios:hover{
-	transform: translateY(8px);
-}
-
-
-.piedepagina{
-	font-family: 'Playfair Display', serif;
-    font-size: 2.8rem;
- 
-    text-align: center;
-}
-
-
-#logo{
-	width:20%;
-	margin-left: 40% ;
-	margin-right: 40%;
-}
-
-.logoface{
-	width: 40px;
-}
-
-
-
-.img-carrousel{
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
-	
-}
-
-
+.img-carrousel {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
 
 /*termina css de index*/
-
 /*css de como comprar*/
+h1, h2, h3, h4, h5 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  text-align: center;
+  color: black; }
 
-h1,h2,h3,h4,h5{
-	font-family: 'Playfair Display', serif;
-	font-size: 2.5rem;
-	text-align: center;
-	color: black;
-}
-.titulo{
-	color: white;
-	background: linear-gradient(to top, black, violet);
-}
+.titulo {
+  color: white;
+  background: linear-gradient(to top, black, violet); }
 
-.titulo:hover{
-	transform: translateY(5px);
-}
-#textoImportante{
-	text-align: center;
-	font-size: 1.7rem;
-	font-family: 'Montserrat', sans-serif;
-}
-.enviosypagos{
-	width: 20%;
-}
+.titulo:hover {
+  transform: translateY(5px); }
+
+#textoImportante {
+  text-align: center;
+  font-size: 1.7rem;
+  font-family: 'Montserrat', sans-serif; }
+
+.enviosypagos {
+  width: 20%; }
 
 /*termina css de como comprar*/
-
 /*css de productos*/
+.subNav {
+  color: violet;
+  background-color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  text-align: center; }
 
+.nav-2 {
+  background-color: white; }
 
-.subNav{
-	color: violet;
-	background-color: white;
-	font-family: 'Playfair Display', serif;
-	font-size: 2rem;
-	text-align: center;
-	
-}
+figure img {
+  width: 90%;
+  height: 50%;
+  object-fit: cover; }
 
-.nav-2{
-	background-color: white;
-}
+figure figcaption {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem; }
 
+figure p {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem; }
 
-figure img{
-	width: 90%;
-	height: 50%;
-	object-fit: cover;
+figure a {
+  background: violet;
+  color: black; }
 
-}
-
-figure figcaption{
-   text-align: center;
-   font-family: 'Playfair Display', serif;
-	font-size: 1.8rem;
-}
-
-figure p{
-	text-align: center;
-	font-family: 'Playfair Display', serif;
-	font-size: 1.5rem;
-}
-
-figure a{
-	
-	background: violet;
-	color: black;
-}
 /*termina css de productos*/
-
 /*css de contacto*/
+#finPag {
+  color: white;
+  background-color: black;
+  text-align: center; }
 
-#finPag{
-	color: white;
-	background-color: black;
-	text-align: center;
-}
-
-.formulario{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.4rem;
-}
-
+.formulario {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem; }
 
 /*termina css de contacto*/
-
 /*css de carrito*/
+.tituloPrincipal {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.4rem;
+  text-align: center;
+  background-color: white; }
 
-.tituloPrincipal{
-	font-family: 'Playfair Display', serif;
-	font-size: 2.4rem;
-	text-align: center;
-	background-color: white;
-}
-.segundoTitulo{
-font-family: 'Playfair Display', serif;
-	font-size: 2.2rem;
-	text-align: left;
-}
-.imgCarrito{
-	width: 10%;
-}
-.elegirEnvio{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.5rem;
-}
+.segundoTitulo {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  text-align: left; }
 
+.imgCarrito {
+  width: 10%; }
+
+.elegirEnvio {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem; }
 
 /*termina css de carrito*/
-
 /*css de mi perfil*/
-.miPerfil{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.5rem;
+.miPerfil {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem; }
 
-}
-
-.cuenta{
-	display: flex;
-	flex-direction: column-reverse;
-	width:100%;
-	margin-bottom: 2%;
-}
+.cuenta {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  margin-bottom: 2%; }
 
 /*inicio grid index*/
+#grilla {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-areas: "nav" "header"  "carrusel"  "promo"  "productos"  "pie"; }
 
-#grilla{
-	display: grid;
-	grid-template-columns:1fr;
-	grid-template-rows: auto auto auto auto auto auto ;
+#nav {
+  grid-area: nav; }
 
-	grid-template-areas:
+#header {
+  grid-area: header; }
 
-	"nav"
-	"header" 
-	"carrusel" 
-	"promo" 
-	"productos" 
-	"pie";
-}
+#carrusel {
+  grid-area: carrusel; }
 
+#promo {
+  grid-area: promo; }
 
-#nav{
-	grid-area: nav;
-}
+#productos {
+  grid-area: productos; }
 
-#header{
-	grid-area: header;
-}
+#finPag {
+  grid-area: pie; }
 
-#carrusel{
-	grid-area: carrusel;
-}
-
-#promo{
-	grid-area: promo;
-}
-
-#productos{
-	grid-area: productos;
-}
-
-#finPag{
-	grid-area: pie;
-}
-
-
-@media only screen and (min-width: 768px){
-   
-  
-
-	.pie{
-		display: flex;
-		flex-direction: row;
-		justify-content: space-evenly;
-	}
-
-
-}
+@media only screen and (min-width: 768px) {
+  .pie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; } }
 
 /*termina grid index*/
-
 /*inicia grid productos*/
+#grillaPR {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "nav2" "produc" "pie"; }
 
-#grillaPR{
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: auto auto auto ;
+#nav2 {
+  grid-area: nav2; }
 
-	grid-template-areas:
-	 "nav2"
-	 "produc"
-	 "pie";
-}
+#productosPR {
+  grid-area: produc; }
 
+#finPag {
+  grid-area: pie; }
 
-#nav2{
-	grid-area: nav2;
-}
+@media only screen and (min-width: 768px) {
+  .pie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+  .subNav {
+    text-align: center; } }
 
-
-#productosPR{
-	grid-area: produc;
-}
-
-
-#finPag{
-	grid-area: pie;
-}
-
-@media only screen and (min-width: 768px){
-   
-
-	.pie{
-		display: flex;
-		flex-direction: row;
-		justify-content: space-evenly;
-	}
-   
-
-   .subNav{
-   	text-align: center;
-   }
-
-}
-
-@media only screen and (min-width: 1024px){
-   
-   #grillaPR{
-	display: grid;
-	grid-template-columns: 15vw 85vw;
-	grid-template-rows: auto auto ;
-
-	grid-template-areas:
-   "nav2 produc"
-   "pie pie";
-   }
-
-
-   .subNav{
-   	text-align: left;
-   }
-
-   .todos-los-productos{
-   	display: flex;
-   	flex-direction: row;
-   	justify-content: center;
-   	
-   }
-}
+@media only screen and (min-width: 1024px) {
+  #grillaPR {
+    display: grid;
+    grid-template-columns: 15vw 85vw;
+    grid-template-rows: auto auto;
+    grid-template-areas: "nav2 produc" "pie pie"; }
+  .subNav {
+    text-align: left; }
+  .todos-los-productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; } }
