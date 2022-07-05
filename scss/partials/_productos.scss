@@ -1,0 +1,104 @@
+.subNav{
+	color: $colorvioleta;
+	background-color: $colorwhite;
+	font-family: 'Playfair Display', serif;
+	font-size: 2rem;
+	text-align: center;
+	
+}
+
+.nav-2{
+	background-color: $colorwhite;
+}
+
+
+figure img{
+	width: 90%;
+	height: 50%;
+	object-fit: cover;
+
+}
+
+figure figcaption{
+   text-align: center;
+   font-family: 'Playfair Display', serif;
+	font-size: 1.8rem;
+}
+
+figure p{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5rem;
+}
+
+figure a{
+	@extend .btn-text;
+	border-radius: 5px;
+	
+}
+
+
+/*inicia grid productos*/
+
+#grillaPR{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto auto ;
+
+	grid-template-areas:
+	 "nav2"
+	 "produc"
+	 "pie";
+}
+
+
+#nav2{
+	grid-area: nav2;
+}
+
+
+#productosPR{
+	grid-area: produc;
+}
+
+#finPag{
+	grid-area: pie;
+}
+
+@media only screen and (min-width: 768px){
+   
+
+	.pie{
+		@include flexbox (center, space-evenly);
+		flex-direction: row;
+	}
+   
+
+   .subNav{
+   	text-align: center;
+   }
+
+}
+
+@media only screen and (min-width: 1024px){
+   
+   #grillaPR{
+	display: grid;
+	grid-template-columns: 15vw 85vw;
+	grid-template-rows: auto auto ;
+
+	grid-template-areas:
+   "nav2 produc"
+   "pie pie";
+   }
+
+
+   .subNav{
+   	text-align: left;
+   }
+
+   .todos-los-productos{
+   	@include flexbox (center, center);
+   	flex-direction: row;   	
+   }
+}

@@ -1,19 +1,21 @@
-@import "./variables";
+@import "../base/variables";
+@import "../base/mixins";
+@import "../base/base";
+
 
 *{
 	margin:0;
 	padding:0; 
 }*
-/*css de index*/
 
 .nav-1{
-	background: $colorvioleta;
+	background: map-get($mapaDeColores, $colorvioleta);
 }
 
 #nav-principal li a{
 	font-size: 1.8rem;
 	font-family: lora-serif;
-	color: $colorwhite;
+	color: map-get($mapaDeColores, $colorwhite);
 
 }
 
@@ -41,7 +43,9 @@ h1,h3,h4{
 	background-color: $colorwhite ;
 }
 .tituloh4{
-	color:  $colornegro;
+	color: $colornegro ;
+	background:$colorvioleta;
+	border-radius: 5px;
 }
 
 
@@ -65,8 +69,7 @@ h1,h3,h4{
 .btn-text{
    background: $colorvioleta;
    color: $colorwhite;
-   display: flex;
-   justify-content: center;
+   @include flexbox(center, center);
 
 }
 
@@ -90,9 +93,9 @@ h1,h3,h4{
 
 .piedepagina{
 	font-family: 'Playfair Display', serif;
-    font-size: 2.8rem;
- 
-    text-align: center;
+   font-size: 2.8rem;
+   text-align: center;
+   list-style: none;
 }
 
 
@@ -113,134 +116,6 @@ h1,h3,h4{
 	margin-left: 5%;
 	margin-right: 5%;
 	
-}
-
-
-
-/*termina css de index*/
-
-/*css de como comprar*/
-
-h1,h2,h3,h4,h5{
-	font-family: 'Playfair Display', serif;
-	font-size: 2.5rem;
-	text-align: center;
-	color:  $colornegro;
-}
-.titulo{
-	color: $colorwhite;
-	background: linear-gradient(to top, black, violet);
-}
-
-.titulo:hover{
-	transform: translateY(5px);
-}
-#textoImportante{
-	text-align: center;
-	font-size: 1.7rem;
-	font-family: 'Montserrat', sans-serif;
-}
-.enviosypagos{
-	width: 20%;
-}
-
-/*termina css de como comprar*/
-
-/*css de productos*/
-
-
-.subNav{
-	color: $colorvioleta;
-	background-color: $colorwhite;
-	font-family: 'Playfair Display', serif;
-	font-size: 2rem;
-	text-align: center;
-	
-}
-
-.nav-2{
-	background-color: $colorwhite;
-}
-
-
-figure img{
-	width: 90%;
-	height: 50%;
-	object-fit: cover;
-
-}
-
-figure figcaption{
-   text-align: center;
-   font-family: 'Playfair Display', serif;
-	font-size: 1.8rem;
-}
-
-figure p{
-	text-align: center;
-	font-family: 'Playfair Display', serif;
-	font-size: 1.5rem;
-}
-
-figure a{
-	
-	background: $colorvioleta;
-	color:  $colornegro;
-}
-/*termina css de productos*/
-
-/*css de contacto*/
-
-#finPag{
-	color: $colorwhite;
-	background-color:  $colornegro;
-	text-align: center;
-}
-
-.formulario{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.4rem;
-}
-
-
-/*termina css de contacto*/
-
-/*css de carrito*/
-
-.tituloPrincipal{
-	font-family: 'Playfair Display', serif;
-	font-size: 2.4rem;
-	text-align: center;
-	background-color: $colorwhite;
-}
-.segundoTitulo{
-font-family: 'Playfair Display', serif;
-	font-size: 2.2rem;
-	text-align: left;
-}
-.imgCarrito{
-	width: 10%;
-}
-.elegirEnvio{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.5rem;
-}
-
-
-/*termina css de carrito*/
-
-/*css de mi perfil*/
-.miPerfil{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.5rem;
-
-}
-
-.cuenta{
-	display: flex;
-	flex-direction: column-reverse;
-	width:100%;
-	margin-bottom: 2%;
 }
 
 /*inicio grid index*/
@@ -299,72 +174,9 @@ font-family: 'Playfair Display', serif;
 
 }
 
-/*termina grid index*/
 
-/*inicia grid productos*/
-
-#grillaPR{
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: auto auto auto ;
-
-	grid-template-areas:
-	 "nav2"
-	 "produc"
-	 "pie";
-}
-
-
-#nav2{
-	grid-area: nav2;
-}
-
-
-#productosPR{
-	grid-area: produc;
-}
-
-#finPag{
-	grid-area: pie;
-}
-
-@media only screen and (min-width: 768px){
-   
-
-	.pie{
-		display: flex;
-		flex-direction: row;
-		justify-content: space-evenly;
-	}
-   
-
-   .subNav{
-   	text-align: center;
-   }
-
-}
-
-@media only screen and (min-width: 1024px){
-   
-   #grillaPR{
-	display: grid;
-	grid-template-columns: 15vw 85vw;
-	grid-template-rows: auto auto ;
-
-	grid-template-areas:
-   "nav2 produc"
-   "pie pie";
-   }
-
-
-   .subNav{
-   	text-align: left;
-   }
-
-   .todos-los-productos{
-   	display: flex;
-   	flex-direction: row;
-   	justify-content: center;
-   	
-   }
-}
+@import "partials/como-comprar";
+@import "partials/productos";
+@import "partials/contacto";
+@import "partials/carrito";
+@import "partials/mi-cuenta";

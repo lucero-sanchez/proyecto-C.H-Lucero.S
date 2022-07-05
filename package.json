@@ -17,9 +17,10 @@
     "url": "https://github.com/lucero-sanchez/proyecto-C.H-Lucero.S/issues"
   },
   "homepage": "https://github.com/lucero-sanchez/proyecto-C.H-Lucero.S#readme",
-  "description": "",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.18"
-  }
+  },
+  "dependencies": {},
+  "description": ""
 }

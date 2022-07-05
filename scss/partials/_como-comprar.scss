@@ -1,0 +1,22 @@
+h1,h2,h3,h4,h5{
+	font-family: 'Playfair Display', serif;
+	font-size: 2.5rem;
+	text-align: center;
+	color:  $colornegro;
+}
+.titulo{
+	color: $colorwhite;
+	background: linear-gradient(to top, black, violet);
+}
+
+.titulo:hover{
+	transform: translateY(5px);
+}
+#textoImportante{
+	text-align: center;
+	font-size: 1.7rem;
+	font-family: 'Montserrat', sans-serif;
+}
+.enviosypagos{
+	width: 20%;
+}
