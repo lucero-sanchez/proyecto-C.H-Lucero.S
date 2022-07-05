@@ -1,0 +1,69 @@
+"agregue descripciones y keywords en todas mis paginas de html, tambien cambie los titulos"
+
+los encabezados los deje como estaban, considero que estan bien.
+
+index-> 
+
+<meta name="description" content="En nuestra tienda podes encontrar ropa y zapatos de gran calidad, tambien podes obtener un 10% de descuento en tu primera compra registrandote en nuestra pagina.">
+
+<meta name="author" content="Lucero Sanchez">
+
+<meta name="keywords" content="proximos ingresos, productos, zapato, vestido, pollera, campera, top, taco, bota, pantalon">
+
+
+como comprar-> 
+
+<meta name="description" content="En renovate podes comprar tanto por menor como por mayor">
+
+<meta name="author" content="Lucero Sanchez">
+
+<meta name="keywords" content="como comprar, compra mayorista, cambios, envios o entregas, formas de pago">
+
+<title>como comprar en renovate</title>
+
+
+productos->
+
+<meta name="description" content="En renovate tenemos tops, vestidos, camperas, zapatos y muchos mas">
+
+<meta name="author" content="Lucero Sanchez">
+    
+<meta name="keywords" content="tops, vestidos, camperas, polleras, conjuntos">
+
+<title>productos de renovate</title>
+
+
+contacto->
+
+<meta name="description" content="Podes contactarte con nosotros a travez de whatsapp: 1169968449, o sino tambien podes buscarnos en nuestras redes sociales.">
+
+<meta name="author" content="Lucero Sanchez">
+  
+<meta name="keywords" content="contacto, info de contacto, nombre, email, telefono">
+
+<title>contacto de renovate</title>
+
+
+carrito->
+
+<meta name="description" content="En renovate podes comprar las prendas que vos quieras, hacemos envios a todo el pais y en compras superiores a 10000 el envio es gratis.">
+  
+<meta name="author" content="Lucero Sanchez">
+  
+<meta name="keywords" content="carrito de compras, subtotal, total, productos, envio">
+
+<title>carrito de renovate</title>
+
+
+mi cuenta->
+
+<meta name="description" content="Registrandote en nuestra pagina obtenes un 10% de descuento en tu primera compra.">
+  
+<meta name="author" content="Lucero Sanchez">
+  
+<meta name="keywords" content="mi cuenta, iniciar sesion, email, contraseña, nombre y apellido, crear cuenta">
+
+<title>mi perfil en renovate</title>
+
+
+
