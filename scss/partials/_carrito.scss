@@ -4,15 +4,36 @@
 	text-align: center;
 	background-color: $colorwhite;
 }
-.segundoTitulo{
-    font-family: 'Playfair Display', serif;
+
+.titulo-prod{
+	font-family:'Montserrat', sans-serif;
 	font-size: 2.2rem;
 	text-align: left;
+
+}
+
+.segundoTitulo{
+    font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	text-align: right;
 }
 .imgCarrito{
-	width: 10%;
+	width: 15%;
 }
 .elegirEnvio{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.5rem;
+}
+
+.carrito{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+
+.btn-carrito{
+	background: $colorvioleta;
+	border-color: $colorvioleta;
+	border-radius: 5px;
 }

@@ -65,7 +65,9 @@
 	<main id="main">
 		  <h1 class="tituloPrincipal">carrito de compras</h1>
 		  <br>
-		  	  <h2 class="segundoTitulo">productos</h2>
+
+		  <div class="carrito">
+		  	  <h2 class="titulo-prod">productos</h2>
 		  	  <br>
 		  	    <img class="imgCarrito" src="../img/campera jean 1.jpeg" alt="esto es una campera">
 		  	    <p>vestido art 45</p>
@@ -73,59 +75,68 @@
 
 		  	      <h3 class="segundoTitulo">subtotal: $4500</h3> 
 		  	      <br>
-		  	          <fieldset class="elegirEnvio">
-		  	          	<legend>envio (gratis superando los $10000)</legend>
-		  	          	<br>
-		  	          	<label for="caba">caba</label>
-		  	          	<input type="checkbox" value="caba" id="caba">
-		  	          	<br>
-		  	          	<label for="gba">gba</label>
-		  	          	<input type="checkbox" value="gba" id="gba">
-		  	          	<br>
-		  	          	<label for="interior"> interior</label>
-		  	          	<input type="checkbox" value="interior" id="interior">
-		  	            <br>
-		  	            <label for="retiro en punto de encuentro">retiro en punto de encuentro</label>
-		  	          	<input type="checkbox" value="retiro en punto de encuentro" id="retiro en punto de encuentro">
-		  	          	<p>(Para los puntos de encuentro se coordina previamente el dia y horario, ya sea por whatsapp o instagram)</p>
-		  	          	<br>
-		  	          	<label for="calcular costo de envio">calcular costo de envio</label>
-    			        <input type="text" name="calcular costo de envio" id="calcular costo de envio" placeholder="tu codigo postal">
-    			        <input type="submit" value="calcular">
-		  	          </fieldset>
+            
+            
+		  	      <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">punto de encuentro (Para los puntos de encuentro se coordina previamente el dia y horario, ya sea por whatsapp o instagram)</label>
+              </div>
+              <br>
 
-		  	        <h4 class="segundoTitulo">total: $4500</h4>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">envios(gratis superando los $10.000</label>
+              </div>
+              <br>
+
+              <select class="form-select" aria-label="Default select example">
+                <option selected>localidad/zona</option>
+                <option value="1">caba</option>
+                <option value="2">gba</option>
+                <option value="3">al interior</option>
+              </select>
+              <br>
+             
+
+		  	      <label for="calcular costo de envio">calcular costo de envio</label>
+    			    <input type="text" name="calcular costo de envio" id="calcular costo de envio" placeholder="tu codigo postal">
+    			    <input class="btn-carrito" type="submit" value="calcular">
+
+    			    <h4 class="segundoTitulo">total: $----</h4>
+
+		  </div>
+		  
 	</main>
-	<hr> 
-		<section id="finPag" class="pie">
-		    <div>
-		    	<article class="piedepagina">navegacion</article>
-		    	    <ul>
-		    	    	<li><a href="../index.html">inicio</a></li>
-			            <li><a href="comocomprar.html">como comprar</a></li>
-			            <li><a href="productos.html">productos</a></li>
-			            <li><a href="contacto.html">contacto</a></li>
-			            <li><a href="carrito.html">carrito</a></li>
-			            <li><a href="mi-cuenta.html">perfil</a></li>
-                    </ul>
-                    
+	<br>
+    <div>
+      <section id="finPag" class="pie">
+            <div class="navegacion">
+              <article class="piedepagina">navegacion</article>
+                    <a class="footer" href="../index.html">inicio</a>
+                    <a class="footer" href="comocomprar.html">como comprar</a>
+                    <a class="footer" href="productos.html">productos</a>
+                    <a class="footer" href="contacto.html">contacto</a>
+                    <a class="footer" href="carrito.html">carrito</a>
+                    <a class="footer" href="mi-cuenta.html">perfil</a>
             </div>
             <div>
-            	<article class="piedepagina">contactanos</article>
-                    <p>whatsapp:1156968449</p>
-                    <p>e-mail: -----</p>
-                    
+              <article class="piedepagina">contactanos</article>
+                    <img class="logoface" src="../img/logowspp.png" alt="logo whatsapp">
+                    <p class="info-footer">1156968449</p>
+                    <img class="logoface" src="../img/logoemail.jpg" alt="logo email">
+                    <p class="info-footer">renovate@hotmail.com</p>
             </div>
             <div>
-                    <article class="piedepagina">redes sociales</article>  
+                <article class="piedepagina">redes sociales</article>  
                 <footer>
-    	               <a href="https://www.facebook.com/profile.php?id=100052858625793">
-    	                   <img class="logoface" src="../img/logo facebook.png" alt="seguinos en facebook">
-    	               </a>
+                     <a href="https://www.facebook.com/profile.php?id=100052858625793">
+                         <img class="logoface" src="../img/logoface.png" alt="logo facebook">
+                     </a>
+                       <img class="logoface" src="../img/logoinsta.jpg" alt="logo instagram">
                 </footer>
             </div>
-	    </section>
-
+      </section>   
+    </div>    		
 	<!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     

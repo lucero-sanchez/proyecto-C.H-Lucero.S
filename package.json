@@ -1,7 +1,13 @@
 {
   "name": "reposit1",
   "version": "1.0.0",
+  "description": "Tienda online de renovate, Lucero Sanchez",
   "main": "index.js",
+  "dependencies": { "bootstrap":"5.0.2"},
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
@@ -11,16 +17,10 @@
     "type": "git",
     "url": "git+https://github.com/lucero-sanchez/proyecto-C.H-Lucero.S.git"
   },
-  "author": "",
+  "author": "Lucero Sanchez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lucero-sanchez/proyecto-C.H-Lucero.S/issues"
   },
-  "homepage": "https://github.com/lucero-sanchez/proyecto-C.H-Lucero.S#readme",
-  "devDependencies": {
-    "node-sass": "^7.0.1",
-    "nodemon": "^2.0.18"
-  },
-  "dependencies": {},
-  "description": ""
+  "homepage": "https://github.com/lucero-sanchez/proyecto-C.H-Lucero.S#readme"
 }
