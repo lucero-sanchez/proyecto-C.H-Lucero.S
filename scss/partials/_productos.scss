@@ -11,7 +11,46 @@
 	background-color: $colorwhite;
 }
 
+.error-404{
+	color: $colorvioleta;
+	font-size: 1rem;
+	text-decoration: none;
+	&:hover{
+		color: $colorwhite;
+	}
+}
+/*estilos a pagina 404*/
 
+.pag-404{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+}
+
+.btn-404{
+	background-color:$colornegro;
+	border-radius: 5px;
+	color: $colorwhite;
+	font-size: 2rem;
+	font-family: 'Ibarra Real Nova', serif;
+	text-decoration: none;
+	&:hover{
+		color:$colorvioleta;
+	}
+}
+
+.h1yh2-404{
+	font-size: 3rem;
+	font-family: 'Ibarra Real Nova', serif;
+
+}
+
+.h3-404{
+	font-size: 1.8rem;
+	font-family:'Ibarra Real Nova', serif ;
+}
 
 /*inicia grid productos*/
 

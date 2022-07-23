@@ -180,6 +180,39 @@ h1, h2, h3, h4, h5 {
 .nav-2 {
   background-color: white; }
 
+.error-404 {
+  color: violet;
+  font-size: 1rem;
+  text-decoration: none; }
+  .error-404:hover {
+    color: white; }
+
+/*estilos a pagina 404*/
+.pag-404 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.btn-404 {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  font-size: 2rem;
+  font-family: 'Ibarra Real Nova', serif;
+  text-decoration: none; }
+  .btn-404:hover {
+    color: violet; }
+
+.h1yh2-404 {
+  font-size: 3rem;
+  font-family: 'Ibarra Real Nova', serif; }
+
+.h3-404 {
+  font-size: 1.8rem;
+  font-family: 'Ibarra Real Nova', serif; }
+
 /*inicia grid productos*/
 #grillaPR {
   display: grid;
